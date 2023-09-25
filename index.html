@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Canvas basics</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="popup active">
+      <div class="icon">
+        <i class="fa fa-check"></i>
+      </div>
+      <div class="title">Introduction</div>
+      <div class="description">
+        This project is for relaxing purpose
+        <div class="row">
+          💎 Constellation Effect
+          <br />
+          🎆 Firework effect
+        </div>
+      </div>
+      <div class="dismiss-btn">
+        <button id="dismiss-popup-btn">Dismiss</button>
+      </div>
+    </div>
+
+    <button id="open-popup-btn">Open Popup</button>
+
+    <h1>CURSOR CUSTOMISE</h1>
+    <div class="option">
+      <button class="btn btn1">Bubble Effect</button>
+      <button class="btn btn2">Constellation Effect</button>
+    </div>
+
+    <canvas id="canvas1"></canvas>
+    <script src="script.js"></script>
+  </body>
+</html>
